@@ -1,0 +1,35 @@
+{
+  "name": "lab-37-cookies",
+  "version": "1.0.0",
+  "description": "Defines routes for the uniform model.",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "latest",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.6"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namgungssi/lab-37-cookies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namgungssi/lab-37-cookies/issues"
+  },
+  "homepage": "https://github.com/namgungssi/lab-37-cookies#readme"
+}
