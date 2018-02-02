@@ -1,7 +1,7 @@
 # GET /api/1.0/uniforms/ Returns uniforms
 
 
-# GET /api/1.0/uniforms/:id REturns a specific uniform, if matches ID
+# GET /api/1.0/uniforms/:id Returns a specific uniform, if matches ID
 
 
 # POST /api/1.0/uniforms/ Returns resource for valid body-parser
