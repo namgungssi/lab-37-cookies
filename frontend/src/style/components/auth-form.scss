@@ -1,0 +1,17 @@
+.authForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.authError {
+ display: block;
+ color: red;
+ padding: 1.5em;
+}
+
+
+.success {
+  display: none;
+}

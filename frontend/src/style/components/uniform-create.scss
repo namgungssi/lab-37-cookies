@@ -1,0 +1,103 @@
+#formDefault {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    @include box-basic;
+    background: white;
+    outline: none;
+  }
+}
+
+
+div#uniformForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#uniformName {
+  width: $uniform-name-width;
+}
+
+
+#uniformDescription {
+  width: $description-width;
+}
+
+
+#logoutButton {
+  position: absolute;
+  padding-left: 1.5em;
+  left: 0;
+  list-style: none;
+}
+
+
+Link a {
+  text-decoration: none;
+}
+
+
+input {
+  border-radius: 3px;
+  margin-right: .9em;
+  border:1px solid transparent;
+  color: black;
+  font-style: bold;
+  font-size: .6em;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#uniformSubmitButton {
+  display: block;
+  margin-left: 1.2em;
+  width: 8em;
+  height: 3em;
+  margin-right: 2em;
+  color: rgb(22, 152, 22);
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 13px;
+
+    &:hover{
+      color: rgb(9, 89, 9);
+    }
+}
+
+
+input.inactive {
+  background: white;
+  color: black;
+  border: 2px ivory;
+
+    &:focus {
+      outline: none;
+    }
+}
+
+
+#uniformSubmitButton.hidden {
+  display: none;
+  visibility: hidden;
+
+  &:hover, &:focus {
+    display: block;
+    visibility: visible;
+  }
+}
+
+
+.invisible {
+  display: none;
+}
